@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<psalm
+        errorLevel="1"
+        strictBinaryOperands="true"
+        findUnusedPsalmSuppress="true"
+        findUnusedBaselineEntry="false"
+        findUnusedCode="false"
+        checkForThrowsDocblock="true"
+        checkForThrowsInGlobalScope="true"
+        ensureArrayStringOffsetsExist="true"
+        ensureArrayIntOffsetsExist="true"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="https://getpsalm.org/schema/config"
+        xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
+>
+    <projectFiles>
+        <directory name="src"/>
+        <directory name="tests"/>
+        <ignoreFiles>
+            <directory name="vendor"/>
+            <file name="tests/bootstrap.php"/>
+        </ignoreFiles>
+    </projectFiles>
+
+    <ignoreExceptions>
+        <!-- LogicExceptions are not meant to be caught or annotated -->
+        <class name="LogicException" />
+        <!-- Symfony catches and handles HttpExceptions for us -->
+        <classAndDescendants name="Symfony\Component\HttpKernel\Exception\HttpException" />
+    </ignoreExceptions>
+
+    <issueHandlers>
+        <!-- Sometimes we need @var to make PhpStorm stfu -->
+        <UnnecessaryVarAnnotation errorLevel="suppress" />
+
+        <MissingThrowsDocblock>
+            <errorLevel type="suppress">
+                <!-- No need to do proper exception handling in tests -->
+                <directory name="tests"/>
+            </errorLevel>
+        </MissingThrowsDocblock>
+
+        <PossiblyUndefinedStringArrayOffset>
+            <errorLevel type="suppress">
+                <!-- No need to check array keys in tests, the test will fail if it doesn't exist -->
+                <directory name="tests"/>
+            </errorLevel>
+        </PossiblyUndefinedStringArrayOffset>
+
+        <PossiblyNullArrayAccess>
+            <errorLevel type="suppress">
+                <!-- No need to check array keys in tests, the test will fail if it doesn't exist -->
+                <directory name="tests"/>
+            </errorLevel>
+        </PossiblyNullArrayAccess>
+    </issueHandlers>
+
+    <plugins>
+        <pluginClass class="Psalm\SymfonyPsalmPlugin\Plugin"/>
+        <pluginClass class="Weirdan\DoctrinePsalmPlugin\Plugin"/>
+        <pluginClass class="Psalm\PhpUnitPlugin\Plugin"/>
+    </plugins>
+</psalm>
