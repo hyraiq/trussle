@@ -68,21 +68,20 @@ I move the unlet cost to the adjustment
 
 # Submission
 
-When you're finished, please do the following two things:
+When you're done, please do these two things.
 
-### 1. Record a short video walkthrough
+## 1. Record a short video walkthrough
 
-Record a short video (aim for __around 5 minutes__) walking us through __your approach__ and __the tools you
-used__. We use [Loom](https://www.loom.com/) internally — it's super easy and free — but any video format is fine,
-just send us a link however suits you.
+Record a short video (around __5 minutes__) walking us through __your approach__ and __the tools you used__.
+[Loom](https://www.loom.com/) works well for this and is free, but any format is fine — just send us a link.
 
-There's no checklist of what to cover — just talk us through how you approached the challenge and what you reached
-for along the way. This gives us a great anchor for discussion in the next interview.
+There's no checklist; just talk us through how you tackled the challenge and what you used. It gives us
+something concrete to dig into during the next interview.
 
-__Please drop the video link into the top of the repo's `README.md`__ so we can find it immediately when we open
-your repo.
+__Please drop the video link at the top of the repo's `README.md`__ so we can find it as soon as we open your
+repo.
 
-### 2. Invite reviewers to your repository
+## 2. Invite reviewers to your repository
 
 Invite [@tomtomau](https://github.com/tomtomau) and [@ndench](https://github.com/ndench) to your repository as
 [collaborators](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).

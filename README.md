@@ -30,12 +30,11 @@ Depending on your seniority, we will be looking for different things but in gene
 
 ### A.I. tools
 
-A.I. tools, agents and other productivity tools are __expected__ when completing this challenge — not just allowed.
-Every engineer on our team uses A.I. tools daily, and we want to see how you actually work.
+A.I. tools and agents are __expected__ on this challenge, not just allowed. Every engineer on our team uses them
+daily and we'd like you to do the same.
 
-Treat this as a __real production codebase__, in a __real team__. We're not testing whether you can solve it
-unaided; we're assessing the same things we'd assess on the job — how you break down the problem, the trade-offs
-you make, the quality of what you ship, and how effectively you direct the tools you reach for.
+Think of this like a codebase you've inherited on day one of a new job, rather than a test to be solved from
+scratch. The criteria above apply either way; we just want to see how you'd actually go about it.
 
 ---
 
@@ -45,7 +44,7 @@ When undertaking this challenge, we ask that you __please do not fork this repos
 [create a private repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
 ![Use this template](/resources/use-this-template.png)
-![Create private repsistory](/resources/create-private-repository.png)
+![Create private repository](/resources/create-private-repository.png)
 
 
 
