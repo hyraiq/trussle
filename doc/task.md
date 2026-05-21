@@ -65,3 +65,23 @@ I add “Roger’s Earthworks”
   - Unlet cost: $3,100.50
 I move the unlet cost to the adjustment
 ```
+
+# Submission
+
+When you're done, please do these two things.
+
+## 1. Record a short video walkthrough
+
+Record a short video (around __5 minutes__) walking us through __your approach__ and __the tools you used__.
+[Loom](https://www.loom.com/) works well for this and is free, but any format is fine — just send us a link.
+
+There's no checklist; just talk us through how you tackled the challenge and what you used. It gives us
+something concrete to dig into during the next interview.
+
+__Please drop the video link at the top of the repo's `README.md`__ so we can find it as soon as we open your
+repo.
+
+## 2. Invite reviewers to your repository
+
+Invite [@tomtomau](https://github.com/tomtomau) and [@ndench](https://github.com/ndench) to your repository as
+[collaborators](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).

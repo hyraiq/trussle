@@ -30,8 +30,11 @@ Depending on your seniority, we will be looking for different things but in gene
 
 ### A.I. tools
 
-A.I. tools are __highly encouraged__ (expected even) when completing this challenge. Every engineer on our team uses
-A.I. tools daily to help them be more productive, and we expect you to do the same.
+A.I. tools and agents are __expected__ on this challenge, not just allowed. Every engineer on our team uses them
+daily and we'd like you to do the same.
+
+Think of this like a codebase you've inherited on day one of a new job, rather than a test to be solved from
+scratch. The criteria above apply either way; we just want to see how you'd actually go about it.
 
 ---
 
@@ -40,11 +43,8 @@ A.I. tools daily to help them be more productive, and we expect you to do the sa
 When undertaking this challenge, we ask that you __please do not fork this repository__. Instead, please
 [create a private repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
-When you're finished, invite [@tomtomau](https://github.com/tomtomau) and [@ndench](https://github.com/ndench)
-to your repository as [collaborators](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).
-
 ![Use this template](/resources/use-this-template.png)
-![Create private repsistory](/resources/create-private-repository.png)
+![Create private repository](/resources/create-private-repository.png)
 
 
 
